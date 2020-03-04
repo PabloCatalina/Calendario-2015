@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+}
+
+table{
+    background-color: #ffffe0;
+    padding: 2.5em 25em;
+    border: black solid 1px;
+}
+
+tbody{
+    background-color: #ffffe0;
+
+}
