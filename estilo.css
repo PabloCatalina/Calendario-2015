@@ -1,5 +1,15 @@
+/* Pablo Catalina Castelló */
+/* Ultuma actualización 08/03/2020 a las 11:19 */
+
+
 body{
-    background-color: lightblue;
+    background-color: #95e1ff;
+    margin: 0px 0px;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-left: 15px;
 }
 
 table{
@@ -11,4 +21,123 @@ table{
 tbody{
     background-color: #ffffe0;
 
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+div.enero table {
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+}
+
+div.enero caption {
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+    
+}
+  
+div.enero td {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-color: #ffffe0;
+}
+  
+div.enero th {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #ffffe0;
+}
+  
+div.febrero table {
+    border: none;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+div.febrero caption {
+    font-weight: bold;
+    text-align: right;
+}
+
+div.febrero th {
+    border-top: none;
+    border-bottom: none;
+    padding-right: 6px;
+    border-color: #ffffe0;
+}
+
+div.febrero td {
+    border-top: none;
+    border-bottom: none;
+    font-size: 150%;
+    padding-right: 5px;
+    width: 1.5em;
+    border-color: #ffffe0;
+}
+  
+div.marzo table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+div.marzo caption {
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+div.marzo th {
+    text-align: center;
+}
+
+div.marzo td {
+    width: 4em;
+    height: 4em;
+    padding-left: 5px;
+    font-size: 70%;
+    vertical-align: top;
+}
+
+div {
+    background-color: lightyellow;
+    border: black 1px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+  
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+address{
+    /* text-align: center;
+    font-family: serif;
+    padding-top: 30px; */
+    all: initial;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    height: 2rem;
+    left: 0;
+    width: 100%;
+    border-top: black 2px solid;
+    margin: 0;
+    padding: 0.3em 0 0.3em;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
 }
